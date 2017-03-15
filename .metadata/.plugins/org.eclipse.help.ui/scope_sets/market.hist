@@ -1,0 +1,5 @@
+#Tue Dec 22 17:55:08 GST 2015
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=market

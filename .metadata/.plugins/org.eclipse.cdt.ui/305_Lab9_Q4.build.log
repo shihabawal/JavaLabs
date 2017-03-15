@@ -1,0 +1,125 @@
+14:28:37 **** Build of configuration Debug for project 305_Lab9_Q4 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp:15:13: warning: ‘showPoints’ defined but not used [-Wunused-variable]
+ static bool showPoints; // flag for drawing points too
+             ^
+Finished building: ../main.cpp
+ 
+Building target: 305_Lab9_Q4
+Invoking: GCC C++ Linker
+g++  -o "305_Lab9_Q4"  ./main.o   
+./main.o: In function `cimg_library::CImgDisplay::screen_width()':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7426: undefined reference to `XOpenDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7430: undefined reference to `XCloseDisplay'
+./main.o: In function `cimg_library::CImgDisplay::screen_height()':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7447: undefined reference to `XOpenDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7451: undefined reference to `XCloseDisplay'
+./main.o: In function `cimg_library::CImgDisplay::_handle_events(_XEvent const*)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7488: undefined reference to `XUnmapWindow'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7493: undefined reference to `XCheckWindowEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7498: undefined reference to `XResizeWindow'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7504: undefined reference to `XCheckWindowEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7508: undefined reference to `XGetWindowAttributes'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7509: undefined reference to `XSync'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7510: undefined reference to `XSetInputFocus'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7522: undefined reference to `XCheckWindowEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7535: undefined reference to `XCheckWindowEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7539: undefined reference to `XLookupString'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7544: undefined reference to `XQueryKeymap'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7549: undefined reference to `XLookupString'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7554: undefined reference to `XCheckWindowEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7560: undefined reference to `XCheckWindowEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7564: undefined reference to `XCheckWindowEvent'
+./main.o: In function `cimg_library::CImgDisplay::_events_thread(void*)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7579: undefined reference to `XLockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7580: undefined reference to `XCheckTypedEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7584: undefined reference to `XCheckMaskEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7589: undefined reference to `XUnlockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7590: undefined reference to `pthread_testcancel'
+./main.o: In function `cimg_library::CImgDisplay::_set_colormap(unsigned long&, unsigned int)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7627: undefined reference to `XStoreColors'
+./main.o: In function `cimg_library::CImgDisplay::_map_window()':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7635: undefined reference to `XMapRaised'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7637: undefined reference to `XWindowEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7644: undefined reference to `XGetWindowAttributes'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7645: undefined reference to `XSync'
+./main.o: In function `cimg_library::CImgDisplay::_paint(bool)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7666: undefined reference to `XSendEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7677: undefined reference to `XPutImage'
+./main.o: In function `cimg_library::CImgDisplay::_init_fullscreen()':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7785: undefined reference to `XCreateWindow'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7790: undefined reference to `XCreateImage'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7792: undefined reference to `XSelectInput'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7793: undefined reference to `XMapRaised'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7794: undefined reference to `XWindowEvent'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7801: undefined reference to `XPutImage'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7804: undefined reference to `XGetWindowAttributes'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7805: undefined reference to `XSync'
+./main.o: In function `cimg_library::CImgDisplay::_desinit_fullscreen()':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7812: undefined reference to `XUngrabKeyboard'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7822: undefined reference to `XDestroyWindow'
+./main.o: In function `cimg_library::CImgDisplay::_assign(unsigned int, unsigned int, char const*, unsigned int, bool, bool)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7849: undefined reference to `XInitThreads'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7851: undefined reference to `XOpenDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7865: undefined reference to `XVisualIDFromVisual'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7867: undefined reference to `XGetVisualInfo'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7870: undefined reference to `XFree'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7872: undefined reference to `XLockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7874: undefined reference to `pthread_create'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7875: undefined reference to `XLockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7894: undefined reference to `XCreateWindow'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7896: undefined reference to `XCreateSimpleWindow'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7900: undefined reference to `XSelectInput'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7902: undefined reference to `XStoreName'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7904: undefined reference to `XCreateColormap'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7906: undefined reference to `XSetWindowColormap'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7910: undefined reference to `XAllocClassHint'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7913: undefined reference to `XSetClassHint'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7914: undefined reference to `XFree'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7951: undefined reference to `XCreateImage'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7954: undefined reference to `XInternAtom'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7955: undefined reference to `XInternAtom'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7956: undefined reference to `XSetWMProtocols'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7958: undefined reference to `XGrabKeyboard'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7961: undefined reference to `XUnlockDisplay'
+./main.o: In function `cimg_library::CImgDisplay::assign()':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7967: undefined reference to `XLockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7977: undefined reference to `XDestroyWindow'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7991: undefined reference to `XFreeColormap'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7993: undefined reference to `XSync'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8006: undefined reference to `XUnlockDisplay'
+./main.o: In function `cimg_library::CImgDisplay::resize(int, int, bool)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8074: undefined reference to `XLockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8078: undefined reference to `XResizeWindow'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8079: undefined reference to `XGetWindowAttributes'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8091: undefined reference to `XUnlockDisplay'
+./main.o: In function `cimg_library::CImgDisplay::show()':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8114: undefined reference to `XLockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8118: undefined reference to `XUnlockDisplay'
+./main.o: In function `cimg_library::CImgDisplay::move(int, int)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8138: undefined reference to `XLockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8139: undefined reference to `XMoveWindow'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8142: undefined reference to `XUnlockDisplay'
+./main.o: In function `cimg_library::CImgDisplay::paint(bool)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8214: undefined reference to `XLockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8216: undefined reference to `XUnlockDisplay'
+./main.o: In function `void cimg_library::CImgDisplay::_resize<unsigned char>(unsigned char, unsigned int, unsigned int, bool)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7737: undefined reference to `XCreateImage'
+./main.o: In function `void cimg_library::CImgDisplay::_resize<unsigned short>(unsigned short, unsigned int, unsigned int, bool)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7737: undefined reference to `XCreateImage'
+./main.o: In function `void cimg_library::CImgDisplay::_resize<unsigned int>(unsigned int, unsigned int, unsigned int, bool)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:7737: undefined reference to `XCreateImage'
+./main.o: In function `cimg_library::CImgDisplay& cimg_library::CImgDisplay::render<unsigned char>(cimg_library::CImg<unsigned char> const&, bool)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8241: undefined reference to `XLockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8540: undefined reference to `XUnlockDisplay'
+./main.o: In function `cimg_library::CImgDisplay& cimg_library::CImgDisplay::render<unsigned int>(cimg_library::CImg<unsigned int> const&, bool)':
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8241: undefined reference to `XLockDisplay'
+/home/shihab/workspace/305_Lab9_Q4/Debug/../cimg.h:8540: undefined reference to `XUnlockDisplay'
+collect2: error: ld returned 1 exit status
+make: *** [305_Lab9_Q4] Error 1
+
+14:28:43 Build Finished (took 6s.203ms)
+

@@ -1,0 +1,11 @@
+10
+34682,2,normal
+8777,1,normal
+39128,0,probation
+39300,4,normal
+39484,2,normal
+40042,3,probation
+40217,2,normal
+40631,5,normal
+40686,1,probation
+41046,6,normal

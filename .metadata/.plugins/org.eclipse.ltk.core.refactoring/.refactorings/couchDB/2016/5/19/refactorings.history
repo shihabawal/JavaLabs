@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;DB/src&apos;&#x0A;- Original project: &apos;couchDB&apos;&#x0A;- Destination element: &apos;DB/src&apos;&#x0A;- Original elements:&#x0A;     Main.java&#x0A;     Person.java&#x0A;     Reader.java" description="Copy compilation units" destination="=DB/src" element1="/src&lt;{Main.java" element2="/src&lt;{Person.java" element3="/src&lt;{Reader.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1462199864103" units="3" version="1.0"/>
+</session>

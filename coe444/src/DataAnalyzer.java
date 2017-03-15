@@ -1,0 +1,151 @@
+public class DataAnalyzer 
+{
+	private double [] [] previousinputs;
+	private double [] timesofpressing, timesofreleasing;
+	
+	public DataAnalyzer ()
+	{
+		previousinputs = new double [43] [14];
+		timesofpressing = new double [43];
+		timesofreleasing = new double [43];
+	}
+	
+	public DataAnalyzer (double [] [] pi, double [] top, double [] tor)
+	{
+		previousinputs = pi;
+		timesofpressing = top;
+		timesofreleasing = tor;
+	}
+	
+	public void SetPreviousInputs (double [] [] pi)
+	{
+		previousinputs = pi;
+	}
+	
+	public double [] [] GetPreviousInputs ()
+	{
+		return previousinputs;
+	}
+	
+	public void SetTimesOfPressing (double [] top)
+	{
+		timesofpressing = top;
+	}
+	
+	public double [] GetTimesOfPressing ()
+	{
+		return timesofpressing;
+	}
+	
+	public void SetTimesOfReleasing (double [] tor)
+	{
+		timesofreleasing = tor;
+	}
+	
+	public double [] GetTimesOfReleasing ()
+	{
+		return timesofreleasing;
+	}
+	
+	public double [] GetStandard ()
+	{
+		double average = 0;
+		double [] standard = new double [43];
+		int index1, index2;
+		for (index1 = 0; index1 < previousinputs.length; index1 = index1 + 1)
+		{
+			for (index2 = 0; index2 < previousinputs [index1].length; index2 = index2 + 1)
+			{
+				average = average + previousinputs [index1] [index2];
+			}
+			average = average / (double) previousinputs [index1].length;
+			standard [index1] = average;
+		}
+		return standard;
+	}
+	
+	public boolean AcceptResults (String method)
+	{
+		double [] [] inputs = new double [5] [43];
+		double [] distances = new double [4], standard = GetStandard (), tolerances;
+		int counter = 0, index;
+		for (index = 0; index < inputs [0].length; index = index + 1)
+		{
+			inputs [0] [index] = Math.abs (timesofreleasing [index] - timesofpressing [index]);
+		}
+		for (index = 0; index < inputs [1].length - 1; index = index + 1)
+		{
+			inputs [1] [index] = Math.abs (timesofpressing [index + 1] - timesofreleasing [index]);
+		}
+		for (index = 0; index < inputs [2].length - 1; index = index + 1)
+		{
+			inputs [2] [index] = Math.abs (timesofpressing [index + 1] - timesofpressing [index]);
+		}
+		for (index = 0; index < inputs [3].length - 1; index = index + 1)
+		{
+			inputs [3] [index] = Math.abs (timesofreleasing [index + 1] - timesofreleasing [index]);
+		}
+		for (index = 0; index < inputs [4].length - 1; index = index + 1)
+		{
+			inputs [4] [index] = Math.abs (timesofreleasing [index + 1] - timesofpressing [index]);
+		}
+		tolerances = StatisticalAlgorithms.GetTolerances (inputs, standard);
+		if (method.equals ("Eucledian Distance"))
+		{
+			for (index = 0; index < distances.length; index = index + 1)
+			{
+				distances [index] = StatisticalAlgorithms.EucledianDistance (inputs [index], standard);
+			}
+		}
+		else if (method.equals ("Normed Eucledian Distance"))
+		{
+			for (index = 0; index < distances.length; index = index + 1)
+			{
+				distances [index] = StatisticalAlgorithms.NormedEucledianDistance (inputs [index], standard);
+			}
+		}
+		else if (method.equals ("Manhattan Distance"))
+		{
+			for (index = 0; index < distances.length; index = index + 1)
+			{
+				distances [index] = StatisticalAlgorithms.ManhattanDistance (inputs [index], standard);
+			}
+		}
+		else if (method.equals ("Manhattan Scaled Distance"))
+		{
+			for (index = 0; index < distances.length; index = index + 1)
+			{
+				distances [index] = StatisticalAlgorithms.ManhattanScaledDistance (inputs [index], standard);
+			}
+		}
+		else if (method.equals ("Mahalanobis Distance"))
+		{
+			for (index = 0; index < distances.length; index = index + 1)
+			{
+				distances [index] = StatisticalAlgorithms.MahalanobisDistance (inputs [index], standard);
+			}
+		}
+		else
+		{
+			for (index = 0; index < inputs [index].length; index = index + 1)
+			{
+				distances [index] = Double.MAX_VALUE;
+			}
+		}
+		for (index = 0; index < tolerances.length; index = index + 1)
+		{
+			if (distances [index] < tolerances [index])
+			{
+				counter = counter + 1;
+			}
+		}
+		if (counter < distances.length / 2)
+		{
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+}

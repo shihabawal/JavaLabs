@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="302" key="DIALOG_WIDTH"/>
+		<item value="139" key="DIALOG_Y_ORIGIN"/>
+		<item value="426" key="DIALOG_HEIGHT"/>
+		<item value="789" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="USB1" key="selection"/>
+		<list key="findhistory">
+			<item value="import java.util.Random;"/>
+			<item value="USB0"/>
+			<item value="public class MyException extends Throwable {"/>
+			<item value="isComplete"/>
+			<item value="LengthIs"/>
+			<item value="arrayBST"/>
+			<item value="2"/>
+			<item value="isBST"/>
+		</list>
+		<list key="replacehistory">
+			<item value="USB1"/>
+			<item value="2.0"/>
+			<item value=","/>
+			<item value=" "/>
+			<item value="major"/>
+			<item value="Student"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="269" key="DIALOG_Y_ORIGIN"/>
+		<item value="462" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

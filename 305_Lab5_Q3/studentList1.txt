@@ -1,0 +1,26 @@
+5
+00041127 Ali Ghafouri 50
+00041203 Abdalla Qallaf 75
+00047286 Marwan Elkrewi 88
+00043255 Ahmed Nasr 90
+00042915 Ahmad Darwish 80
+
+00041127 Ali Ghafouri 50
+00041203 Abdalla Qallaf 75
+00042915 Ahmad Darwish 80
+00043255 Ahmed Nasr 90
+00043724 Firas Gefe 86
+00045172 Setareh Sahebkar 95
+00045832 Faisal AlZarooni 79
+00046940 Karim Elmeselhi 68
+00047286 Marwan Elkrewi 88
+00047324 Ehab Basta 98
+00047562 AbdulWahab Sahyoun 79
+00048048 Abdulla Eqab 83
+00048417 Ahmad Samra 84
+00048675 Hazim Jawhari 70
+00048776 Walid Molahi 65
+00049417 Sarah Al-Hajj 69
+00049431 Hakam Abdelqader 64
+00049691 Andrew Younan 45
+00050585 Mohammed Ahmed 35

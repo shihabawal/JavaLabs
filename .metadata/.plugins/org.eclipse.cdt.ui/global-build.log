@@ -1,0 +1,672 @@
+01:07:58 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+../PQueueType.cpp: In member function ‘Error_code PQueueType::Enqueue(ItemType)’:
+../PQueueType.cpp:5:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../PQueueType.cpp: In member function ‘Error_code PQueueType::Dequeue(ItemType&)’:
+../PQueueType.cpp:9:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../PQueueType.cpp
+ 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+01:08:01 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+01:10:30 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+../PQueueType.cpp:3:43: error: default argument given for parameter 1 of ‘PQueueType::PQueueType(int)’ [-fpermissive]
+ PQueueType::PQueueType(int max = MAX_ITEMS){
+                                           ^
+In file included from ../PQueueType.cpp:1:0:
+../PQueueType.h:16:2: error: after previous specification in ‘PQueueType::PQueueType(int)’ [-fpermissive]
+  PQueueType(int max = MAX_ITEMS); //PARAMETERIZED CONSTRUCTOR
+  ^
+../PQueueType.cpp: In member function ‘Error_code PQueueType::Enqueue(ItemType)’:
+../PQueueType.cpp:10:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../PQueueType.cpp: In member function ‘Error_code PQueueType::Dequeue(ItemType&)’:
+../PQueueType.cpp:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+make: *** [PQueueType.o] Error 1
+01:11:17 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+../PQueueType.cpp: In member function ‘Error_code PQueueType::Enqueue(ItemType)’:
+../PQueueType.cpp:10:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../PQueueType.cpp: In member function ‘Error_code PQueueType::Dequeue(ItemType&)’:
+../PQueueType.cpp:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../PQueueType.cpp
+ 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:35:00 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+Finished building: ../PQueueType.cpp
+ 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:35:15 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:35:20 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:35:32 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:36:23 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+Finished building: ../PQueueType.cpp
+ 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:36:58 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+Finished building: ../PQueueType.cpp
+ 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:38:12 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+Finished building: ../PQueueType.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:38:32 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:40:54 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:46:00 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+Finished building: ../PQueueType.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:46:21 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:46:52 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:47:34 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:47:53 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:48:09 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:48:29 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:49:16 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+13:50:06 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+15:12:05 **** Incremental Build of configuration Debug for project 305_Lab10Q1 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:05 **** Incremental Build of configuration Debug for project 305_Lab11_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:06 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:06 **** Incremental Build of configuration Debug for project 305_Lab4_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:06 **** Incremental Build of configuration Debug for project 305_Lab5_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:07 **** Incremental Build of configuration Debug for project 305_Lab5_Q2 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:07 **** Incremental Build of configuration Debug for project 305_Lab5_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:08 **** Incremental Build of configuration Debug for project 305_Lab5_Q3ab ****
+make all 
+make: Nothing to be done for `all'.
+15:12:08 **** Incremental Build of configuration Debug for project 305_Lab6_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:08 **** Incremental Build of configuration Debug for project 305_Lab6_Q1b ****
+make all 
+make: Nothing to be done for `all'.
+15:12:09 **** Incremental Build of configuration Debug for project 305_Lab6_Q2 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:09 **** Incremental Build of configuration Debug for project 305_Lab6_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:09 **** Incremental Build of configuration Debug for project 305_Lab7_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:10 **** Incremental Build of configuration Debug for project 305_Lab7_Q2 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:10 **** Incremental Build of configuration Debug for project 305_Lab7_Q2b ****
+make all 
+make: Nothing to be done for `all'.
+15:12:10 **** Incremental Build of configuration Debug for project 305_Lab8_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:11 **** Incremental Build of configuration Debug for project 305_Lab8_Q2 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:11 **** Incremental Build of configuration Debug for project 305_Lab8_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:11 **** Incremental Build of configuration Debug for project 305_Lab8_Q5 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:12 **** Incremental Build of configuration Debug for project 305_Lab9_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:12 **** Incremental Build of configuration Debug for project 305_Lab9_Q2 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp:3:17: error: ‘System’ is not a namespace-name
+ using namespace System;
+                 ^
+../main.cpp:3:23: error: expected namespace-name before ‘;’ token
+ using namespace System;
+                       ^
+../main.cpp:4:17: error: ‘System’ has not been declared
+ using namespace System::IO;
+                 ^
+../main.cpp:4:25: error: ‘IO’ is not a namespace-name
+ using namespace System::IO;
+                         ^
+../main.cpp:4:27: error: expected namespace-name before ‘;’ token
+ using namespace System::IO;
+                           ^
+make: *** [main.o] Error 1
+15:12:13 **** Incremental Build of configuration Debug for project 305_Lab_Q2 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:13 **** Incremental Build of configuration Debug for project 305_Lab_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+15:12:13 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../temp.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"temp.d" -MT"temp.d" -o "temp.o" "../temp.c"
+../temp.c:1:1: error: stray ‘\342’ in program
+ ​​​​​
+ ^
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:2:18: fatal error: RS232.h: No such file or directory
+ #include<RS232.h>
+                  ^
+compilation terminated.
+make: *** [temp.o] Error 1
+19:16:33 **** Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+Finished building: ../PQueueType.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+19:17:37 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘ItemType main()’:
+../test.cpp:17:15: error: no matching function for call to ‘PQueueType::Dequeue(int)’
+  p.Dequeue(100);
+               ^
+../test.cpp:17:15: note: candidate is:
+In file included from ../test.cpp:2:0:
+../PQueueType.h:24:13: note: Error_code PQueueType::Dequeue(ItemType&)
+  Error_code Dequeue(ItemType& item);
+             ^
+../PQueueType.h:24:13: note:   no known conversion for argument 1 from ‘int’ to ‘ItemType& {aka int&}’
+make: *** [test.o] Error 1
+19:19:44 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+Finished building: ../PQueueType.cpp
+ 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘ItemType main()’:
+../test.cpp:17:13: error: lvalue required as unary ‘&’ operand
+  p.Dequeue(&100);
+             ^
+make: *** [test.o] Error 1
+19:20:06 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+../test.cpp: In function ‘ItemType main()’:
+../test.cpp:18:16: error: no matching function for call to ‘PQueueType::Dequeue(ItemType*)’
+  p.Dequeue(&num);
+                ^
+../test.cpp:18:16: note: candidate is:
+In file included from ../test.cpp:2:0:
+../PQueueType.h:24:13: note: Error_code PQueueType::Dequeue(ItemType&)
+  Error_code Dequeue(ItemType& item);
+             ^
+../PQueueType.h:24:13: note:   no known conversion for argument 1 from ‘ItemType* {aka int*}’ to ‘ItemType& {aka int&}’
+make: *** [test.o] Error 1
+19:20:36 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+19:20:52 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+19:23:56 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+Finished building: ../PQueueType.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+19:24:23 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+19:34:10 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../PQueueType.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PQueueType.d" -MT"PQueueType.d" -o "PQueueType.o" "../PQueueType.cpp"
+Finished building: ../PQueueType.cpp
+ 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+19:35:10 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+19:36:20 **** Incremental Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:45 **** Build of configuration Debug for project 305_Lab10Q1 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:46 **** Build of configuration Debug for project 305_Lab11_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:47 **** Build of configuration Debug for project 305_Lab11_Q3 ****
+make all 
+Building file: ../test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.cpp"
+Finished building: ../test.cpp
+ 
+Building target: 305_Lab11_Q3
+Invoking: GCC C++ Linker
+g++  -o "305_Lab11_Q3"  ./PQueueType.o ./test.o   
+Finished building target: 305_Lab11_Q3
+ 
+18:37:47 **** Build of configuration Debug for project 305_Lab4_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:48 **** Build of configuration Debug for project 305_Lab5_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:48 **** Build of configuration Debug for project 305_Lab5_Q2 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:48 **** Build of configuration Debug for project 305_Lab5_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:48 **** Build of configuration Debug for project 305_Lab5_Q3ab ****
+make all 
+make: Nothing to be done for `all'.
+18:37:48 **** Build of configuration Debug for project 305_Lab6_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:49 **** Build of configuration Debug for project 305_Lab6_Q1b ****
+make all 
+make: Nothing to be done for `all'.
+18:37:49 **** Build of configuration Debug for project 305_Lab6_Q2 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:49 **** Build of configuration Debug for project 305_Lab6_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:49 **** Build of configuration Debug for project 305_Lab7_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:49 **** Build of configuration Debug for project 305_Lab7_Q2 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:50 **** Build of configuration Debug for project 305_Lab7_Q2b ****
+make all 
+make: Nothing to be done for `all'.
+18:37:50 **** Build of configuration Debug for project 305_Lab8_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:50 **** Build of configuration Debug for project 305_Lab8_Q2 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:50 **** Build of configuration Debug for project 305_Lab8_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:50 **** Build of configuration Debug for project 305_Lab8_Q5 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:51 **** Build of configuration Debug for project 305_Lab9_Q1 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:51 **** Build of configuration Debug for project 305_Lab9_Q2 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp:3:17: error: ‘System’ is not a namespace-name
+ using namespace System;
+                 ^
+../main.cpp:3:23: error: expected namespace-name before ‘;’ token
+ using namespace System;
+                       ^
+../main.cpp:4:17: error: ‘System’ has not been declared
+ using namespace System::IO;
+                 ^
+../main.cpp:4:25: error: ‘IO’ is not a namespace-name
+ using namespace System::IO;
+                         ^
+../main.cpp:4:27: error: expected namespace-name before ‘;’ token
+ using namespace System::IO;
+                           ^
+make: *** [main.o] Error 1
+18:37:51 **** Build of configuration Debug for project 305_Lab_Q2 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:51 **** Build of configuration Debug for project 305_Lab_Q3 ****
+make all 
+make: Nothing to be done for `all'.
+18:37:51 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../temp.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"temp.d" -MT"temp.d" -o "temp.o" "../temp.c"
+../temp.c:1:1: error: stray ‘\342’ in program
+ ​​​​​
+ ^
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:2:18: fatal error: RS232.h: No such file or directory
+ #include<RS232.h>
+                  ^
+compilation terminated.
+make: *** [temp.o] Error 1

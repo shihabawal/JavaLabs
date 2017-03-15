@@ -1,0 +1,24 @@
+18:37:51 **** Build of configuration Debug for project 305_Lab9_Q2 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp:3:17: error: ‘System’ is not a namespace-name
+ using namespace System;
+                 ^
+../main.cpp:3:23: error: expected namespace-name before ‘;’ token
+ using namespace System;
+                       ^
+../main.cpp:4:17: error: ‘System’ has not been declared
+ using namespace System::IO;
+                 ^
+../main.cpp:4:25: error: ‘IO’ is not a namespace-name
+ using namespace System::IO;
+                         ^
+../main.cpp:4:27: error: expected namespace-name before ‘;’ token
+ using namespace System::IO;
+                           ^
+make: *** [main.o] Error 1
+
+18:37:51 Build Finished (took 292ms)
+

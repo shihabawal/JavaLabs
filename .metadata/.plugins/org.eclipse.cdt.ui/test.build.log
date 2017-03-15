@@ -1,0 +1,30 @@
+18:37:51 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../temp.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"temp.d" -MT"temp.d" -o "temp.o" "../temp.c"
+../temp.c:1:1: error: stray ‘\342’ in program
+ ​​​​​
+ ^
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:1:1: error: stray ‘\342’ in program
+../temp.c:1:1: error: stray ‘\200’ in program
+../temp.c:1:1: error: stray ‘\213’ in program
+../temp.c:2:18: fatal error: RS232.h: No such file or directory
+ #include<RS232.h>
+                  ^
+compilation terminated.
+make: *** [temp.o] Error 1
+
+18:37:52 Build Finished (took 477ms)
+

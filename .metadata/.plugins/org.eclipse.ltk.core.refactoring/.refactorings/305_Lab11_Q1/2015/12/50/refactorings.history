@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;305_Lab11_Q1/BinarySearchTree.h&apos; to &apos;BinarySearchTree.cpp&apos;" description="Rename resource &apos;BinarySearchTree.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="BinarySearchTree.h" name="BinarySearchTree.cpp" stamp="1449742769085" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;305_Lab11_Q1/BinarySearchTree&apos; to &apos;BinarySearchTree.h&apos;" description="Rename resource &apos;BinarySearchTree&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="BinarySearchTree" name="BinarySearchTree.h" stamp="1449742801196" updateReferences="true"/>
+</session>
